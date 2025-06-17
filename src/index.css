@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+button:not([class*="bg-"]) {
+  background: transparent !important;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
